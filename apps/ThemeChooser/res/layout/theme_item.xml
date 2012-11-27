@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/theme_preview"
-        android:layout_width="@dimen/preview_width_size"
-        android:layout_height="@dimen/preview_height_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:background="@android:color/black"
         android:scaleType="fitXY"

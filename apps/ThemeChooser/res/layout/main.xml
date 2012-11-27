@@ -29,9 +29,8 @@
             android:id="@+id/gallery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:spacing="5dp"
             android:unselectedAlpha="0.5"
-            />
+            android:spacing="5dp" />
 
     </FrameLayout>
 </RelativeLayout>
