@@ -239,8 +239,9 @@ public class ThemeChooser extends Activity {
 
     private final OnItemSelectedListener mItemSelected = new OnItemSelectedListener() {
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+            ThemeItem item = (ThemeItem)parent.getItemAtPosition(position);
             mShowUninstallIcon = true;
-            if (mAdapter.getMarkedPosition() == position) {
+            if (item.getPackageName().isEmpty()) {
                 mShowUninstallIcon = false;
             }
             ThemeChooser.this.invalidateOptionsMenu();
