@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- # Copyright (C) 2010, T-Mobile USA, Inc.
+ # Copyright (C) 2011, T-Mobile USA, Inc.
  #
  # Licensed under the Apache License, Version 2.0 (the "License");
  # you may not use this file except in compliance with the License.
@@ -15,17 +15,8 @@
  # limitations under the License.
  -->
 
-<com.tmobile.themechooser.ReflectionLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+<resources>
+    <dimen name="preview_height_size">350dp</dimen>
+    <dimen name="preview_width_size">210dp</dimen>
 
-    <ImageView
-        android:id="@+id/theme_preview"
-        android:layout_width="@dimen/preview_width_size"
-        android:layout_height="@dimen/preview_height_size"
-        android:adjustViewBounds="true"
-        android:background="@android:color/black"
-        android:scaleType="fitXY"
-        />
-
-</com.tmobile.themechooser.ReflectionLayout>
+</resources>
