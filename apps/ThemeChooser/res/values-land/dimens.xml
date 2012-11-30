@@ -16,6 +16,6 @@
  -->
 
 <resources>
-    <dimen name="preview_height_size">249px</dimen>
-    <dimen name="preview_width_size">443px</dimen>
+    <dimen name="preview_height_size">198dp</dimen>
+    <dimen name="preview_width_size">330dp</dimen>
 </resources>
