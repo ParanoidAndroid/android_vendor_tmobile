@@ -20,8 +20,12 @@
 
     <string name="menu_apply">Uygula</string>
     <string name="menu_uninstall">Kaldır</string>
+    <string name="menu_about">Hakkında</string>
 
     <string name="theme_current">%s (şimdiki)</string>
+    <string name="theme_current_author">Oluşturan: </string>
+    <string name="theme_current_name">İsim: </string>
+    <string name="theme_current_package">Paket: </string>
     <string name="theme_change_dialog_title">Uygulanıyor\u2026</string>
     <string name="switching_to_theme">Değiştiriliyor: <xliff:g id="theme">%s</xliff:g></string>
     <string name="item_count">%1$d/%2$d</string>
