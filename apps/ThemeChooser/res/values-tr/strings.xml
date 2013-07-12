@@ -30,5 +30,5 @@
     <string name="dialog_missing_host_density_msg">Üzgünüz, bu temanın cihazınızın ekran boyutuna uygun nesneleri eksik.</string>
     <string name="dialog_missing_theme_package_scope_msg">Bu tema düzgün derlenmemiş ve uygulanamaz. Lütfen bu hatayı temayı hazırlayan kişiye iletin.</string>
     <string name="dialog_apply_anyway_btn">Yine de uygula</string>
-    <string name="dialog_bummer_btn">Iptal</string>
+    <string name="dialog_bummer_btn">İptal</string>
 </resources>
